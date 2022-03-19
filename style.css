@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&display=swap');
+
+body{
+  background: linear-gradient(236.85deg, #3CB371 27.26%, #2E8B57 96.03% );
+  font-family: 'Fredoka', sans-serif;
+}
+.titulo h1{
+  color:green; 
+  font-weight:700;
+  font-size:36px;
+}
+.titulo h3{
+  font-weight:400;
+  font-size:24px;
+}
+.tema{
+
+}
+.tema button {
+  
+  
+  
+  align-self:flex-end;
+  font-weight: 400;
+font-size: 24px;
+  padding:8px 16px;
+  background: #ECF4FF;
+border-radius: 100px;
+  border: 2px solid #0E1D2F;
+}
+.cabecalho{
+  display:flex;
+  justify-content:space-between;
+  
+  
+}
+.perfil{
+  display:flex;
+
+  
+}
+.foto-perfil{
+   border-radius:400px;
+  width:20%;
+  box-shadow:0px 4px 4px rgba(0,0,0,0.25);
+}
+.logo{
+  border-radius:100px;
+    width:5%;
+      align-items: center;
+  box-shadow:0px 4px 4px rgba(0,0,0,0.25);
+}
+.logo2{
+
+    width:15%;
+  max-height:300px;
+      align-items: left;
+ 
+}
+.titulo{
+  margin-left: 15px;
+  
+}/* .antes da classe pra chamar e caracterizar */
+.container {
+  color:#1C1C1C;
+  background: #ECF4FF;
+/*    margem do elemento externo pro estilizado */
+  margin:44px;
+  border-radius:50px;
+  box-shadow: 6px 6px 6px #0E1D2F;
+/*   margem do elemento estilizado para os que tem dentro */
+  padding: 60px;
+}
+
+.b{
+ 
+  font-weigth:400;
+  font-size:35px;
+}
+.projetos{
+  
+  list-style:none;
+ font-size:20px;
+  background:	#90EE90;
+  font-weigth:700;
+  margin:25px;
+  border-radius:20px;
+  box-shadow: 6px 6px 6px #0E1D2F;
+/*   margem do elemento estilizado para os que tem dentro */
+  padding: 50px;
+  
+   display:flex;
+  flex-direction:column;
+  align-items: center;
+  line-height:40px;
+}
+.projetos a {
+  color:black;
+  text-decoration: none;
+}
+
+
+.dark{
+  background: linear-gradient(236.85deg, black 27.26%, #2E8C57 96.03% );
+}
+.dark .container{
+  background: #333439;
+  color:white;
+}
+.dark .projetos{
+  color:#1C1C1C;
+}
+.dark .tema button{
+  background:#1C1C1C;
+  color:#FFFFFF;
+  border:2px solid #F7F7F7;
+}
