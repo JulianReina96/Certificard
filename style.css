@@ -24,7 +24,7 @@ body{
   font-weight: 400;
 font-size: 24px;
   padding:8px 16px;
-  background: #ECF4FF;
+  background: white;
 border-radius: 100px;
   border: 2px solid #0E1D2F;
 }
@@ -63,7 +63,7 @@ border-radius: 100px;
 }/* .antes da classe pra chamar e caracterizar */
 .container {
   color:#1C1C1C;
-  background: #ECF4FF;
+  background: white;
 /*    margem do elemento externo pro estilizado */
   margin:44px;
   border-radius:50px;
